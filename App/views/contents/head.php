@@ -1,10 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<!-- Mirrored from themes.webestica.com/formax/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 28 Nov 2023 02:50:29 GMT -->
+<html lang="id">
 
 <head>
-    <title>Formax - Creative Agency Bootstrap Template</title>
+    <title>Cibiru - Ciwaruga Generasi Muda | khairunnas anfa'uhum linnas</title>
 
     <!-- Meta Tags -->
     <meta charset="utf-8">
@@ -13,7 +11,7 @@
     <meta name="description" content="Bootstrap Based Creative Agency Template">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link rel="shortcut icon" href="<?= AJR; ?>assets/img/favicon.ico">
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
@@ -21,28 +19,26 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;display=swap">
 
     <!-- Plugins CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
-    <link rel="stylesheet" type="text/css" href="assets/vendor/tiny-slider/tiny-slider.css">
-    <link rel="stylesheet" type="text/css" href="assets/vendor/glightbox/css/glightbox.min.css">
+    <link rel="stylesheet" type="text/css" href="<?= AJR; ?>assets/vendor/font-awesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="<?= AJR; ?>assets/vendor/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="<?= AJR; ?>assets/vendor/tiny-slider/tiny-slider.css">
+    <link rel="stylesheet" type="text/css" href="<?= AJR; ?>assets/vendor/glightbox/css/glightbox.min.css">
 
 
     <!-- Theme CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="<?= AJR; ?>assets/css/style.css">
 
 </head>
 
 <body>
 
-    <!-- =======================
-Header START -->
     <header class="navbar-dark navbar-transparent">
         <!-- Logo Nav START -->
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <!-- Logo START -->
-                <a class="navbar-brand" href="index.html">
-                    <img class="navbar-brand-item" src="assets/images/logo.svg" alt="logo">
+                <a class="navbar-brand" href="<?= AJR; ?>">
+                    <img class="navbar-brand-item" src="assets/img/logo.png" alt="logo">
                 </a>
                 <!-- Logo END -->
 
@@ -122,15 +118,6 @@ Header START -->
 
                                 <li> <a class="dropdown-item" href="maintenance-mode.html">Maintenance mode</a> </li>
                                 <!-- Submenu  -->
-                                <li class="dropdown-submenu dropend">
-                                    <a class="dropdown-item dropdown-toggle" href="#">Authentication</a>
-                                    <ul class="dropdown-menu" data-bs-popper="none">
-                                        <li> <a class="dropdown-item" href="sign-in.html">Sign in</a> </li>
-                                        <li> <a class="dropdown-item" href="sign-up.html">Sign up</a> </li>
-                                        <li> <a class="dropdown-item" href="password-recovery.html">Password
-                                                recovery</a> </li>
-                                    </ul>
-                                </li>
                             </ul>
                         </li>
 
@@ -151,26 +138,14 @@ Header START -->
                 </div>
                 <!-- Main navbar END -->
 
-                <!-- Nav right START -->
-                <div class="d-none d-sm-block">
-                    <!-- Nav Button -->
-                    <a href="sign-in.html" class="btn btn-link text-white mb-0">Login</a>
-                    <a href="sign-up.html" class="btn btn-dark mb-0 mx-2">Sign up</a>
-                </div>
-                <!-- Nav right END -->
-
             </div>
         </nav>
         <!-- Logo Nav END -->
     </header>
-    <!-- =======================
-Header END -->
 
-    <!-- **************** MAIN CONTENT START **************** -->
+
     <main>
 
-        <!-- =======================
-Main banner START -->
         <section class="bg-primary position-relative">
 
             <!-- Svg START -->
@@ -239,19 +214,13 @@ Main banner START -->
 
                     <div class="col-lg-5 z-index-9">
                         <!-- Title -->
-                        <h1 class="text-white">Accelerate your <span class="text-warning">analysis</span> with feature
+                        <h1 class="text-white">Ciwaruga Bina<span class="text-warning">Generasi</span> Muda
                         </h1>
                         <!--Content -->
-                        <p class="text-white mb-0">Started several mistake joy say painful removed reached end. State
-                            burst think end are its. Arrived off she elderly beloved him affixed noisier yet.</p>
+                        <p class="text-white mb-0">"Khoirunnas Anfauhum Linnas (Sebaik-baiknya Manusia Adalah yang
+                            Bermanfaat Bagi Manusia Lainnya)".</p>
+                        <br><br>
 
-                        <!-- Button -->
-                        <div class="my-4">
-                            <a class="btn btn-warning mb-0">Get demo</a>
-                            <a class="btn btn-white btn-white-shadow btn-round btn-lg ms-3 mb-0" data-glightbox=""
-                                data-gallery="hero" href="https://www.youtube.com/embed/tXHviS-4ygo"><i
-                                    class="fas fa-play"></i></a>
-                        </div>
 
                         <!-- Social -->
                         <div class="d-flex me-auto align-items-center mb-4 mb-md-0">
@@ -288,7 +257,7 @@ Main banner START -->
                                 <!-- Svg END-->
 
                                 <!-- Image -->
-                                <img src="assets/images/bg/02.jpg"
+                                <img src="<?= AJR; ?>assets/img/02.jpg"
                                     class="rounded-3 mb-0 mb-lg-9 mt-5 mt-lg-0 position-relative" alt="hero">
                             </div>
 
@@ -316,7 +285,7 @@ Main banner START -->
                                     <!-- Svg END-->
 
                                     <!-- Image -->
-                                    <img src="assets/images/bg/01.jpg" class="rounded-top-right-10" alt="hero">
+                                    <img src="<?= AJR; ?>assets/img/01.jpg" class="rounded-top-right-10" alt="hero">
                                 </div>
 
                                 <!-- Message Box -->
@@ -354,11 +323,7 @@ Main banner START -->
             </div>
 
         </section>
-        <!-- =======================
-Hero banner END -->
 
-        <!-- =======================
-Service section START -->
         <section>
             <div class="container position-relative">
 
@@ -458,11 +423,7 @@ Service section START -->
                 </div><!-- Row END -->
             </div>
         </section>
-        <!-- =======================
-Service section END -->
 
-        <!-- =======================
-About section  END -->
         <section class="bg-light position-relative py-5">
 
             <!-- Svg START-->
@@ -672,11 +633,7 @@ About section  END -->
                 </div><!-- Row END -->
             </div>
         </section>
-        <!-- =======================
-About section  START -->
 
-        <!-- =======================
-Testimonial section  START -->
         <section>
             <div class="container">
 
@@ -890,11 +847,7 @@ Testimonial section  START -->
 
             </div>
         </section>
-        <!-- =======================
-Testimonial section START -->
 
-        <!-- =======================
-Action box START -->
         <section class="py-0">
             <div class="container">
 
@@ -964,11 +917,7 @@ Action box START -->
 
             </div>
         </section>
-        <!-- =======================
-Action box END -->
 
-        <!-- =======================
-Step START -->
         <section>
             <div class="container">
                 <!-- Tabs -->
@@ -1126,11 +1075,7 @@ Step START -->
                 </div><!-- Row END -->
             </div>
         </section>
-        <!-- =======================
-Step END -->
 
-        <!-- =======================
-Pricing plan START -->
         <section class="bg-light position-relative price-wrap py-5">
 
             <!-- Svg START -->
@@ -1391,11 +1336,8 @@ Pricing plan START -->
                 </div><!-- Row END -->
             </div>
         </section>
-        <!-- =======================
-Pricing plan END -->
 
-        <!-- =======================
-Client START -->
+
         <section class="py-4">
             <div class="container">
 
@@ -1428,14 +1370,9 @@ Client START -->
 
             </div>
         </section>
-        <!-- =======================
-Client END -->
-
     </main>
-    <!-- **************** MAIN CONTENT END **************** -->
 
-    <!-- =======================
-Footer START  -->
+
     <footer class="bg-dark pt-5">
         <div class="container">
 
@@ -1443,7 +1380,7 @@ Footer START  -->
                 <!-- Widget 1 START -->
                 <div class="col-12 col-lg-3">
                     <!-- Logo -->
-                    <img src="assets/images/logo.svg" class="footer-brand-item mb-3" alt="logo">
+                    <img src="<?= AJR; ?>assets/img/logo.png" class="footer-brand-item mb-3" alt="logo">
                     <!-- Info -->
                     <p class="text-primary-hover"><a href="#" class="text-white"><i class="bi bi-geo-alt me-2"></i>153
                             Williamson plaza, maggie-berg</a>
@@ -1518,8 +1455,8 @@ Footer START  -->
 
                 <!-- Copy rights -->
                 <div class="col-md-6">
-                    <div class="text-center text-md-start text-primary-hover text-white ">©2022 <a
-                            href="https://www.webestica.com/" class="text-reset btn-link" target="_blank">Webestica</a>.
+                    <div class="text-center text-md-start text-primary-hover text-white ">© <?= date('Y'); ?> <a
+                            href="https://cibiru.or.id/" class="text-reset btn-link" target="_blank">Cibiru.or.id</a>.
                         All rights reserved
                     </div>
                 </div>
@@ -1539,30 +1476,25 @@ Footer START  -->
 
         </div>
     </footer>
-    <!-- =======================
-Footer END  -->
+
 
     <!-- Back to top -->
     <div class="back-top"><i class="bi bi-arrow-up-short position-absolute top-50 start-50 translate-middle"></i></div>
 
-    <!-- =======================
-JS libraries, plugins and custom scripts -->
+
 
     <!-- Bootstrap JS -->
-    <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="<?= AJR; ?>assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- Vendors -->
-    <script src="assets/vendor/tiny-slider/tiny-slider.js"></script>
-    <script src="assets/vendor/purecounterjs/dist/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="<?= AJR; ?>assets/vendor/tiny-slider/tiny-slider.js"></script>
+    <script src="<?= AJR; ?>assets/vendor/purecounterjs/dist/purecounter_vanilla.js"></script>
+    <script src="<?= AJR; ?>assets/vendor/glightbox/js/glightbox.min.js"></script>
 
     <!-- Template Functions -->
-    <script src="assets/js/functions.js"></script>
+    <script src="<?= AJR; ?>assets/js/functions.js"></script>
 
 
 </body>
-
-
-<!-- Mirrored from themes.webestica.com/formax/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 28 Nov 2023 02:50:47 GMT -->
 
 </html>
